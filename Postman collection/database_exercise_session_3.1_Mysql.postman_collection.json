@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "f3ee15b3-d6c7-4075-ad58-bcd65ec4c367",
+		"name": "database_exercise_session_3.1_Mysql",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "department",
+			"item": [
+				{
+					"name": "addDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/department/addDetails.php?addDetails=true&name=abc&createdDate=2021-01-13",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"department",
+								"addDetails.php"
+							],
+							"query": [
+								{
+									"key": "addDetails",
+									"value": "true"
+								},
+								{
+									"key": "name",
+									"value": "abc"
+								},
+								{
+									"key": "createdDate",
+									"value": "2021-01-13"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/department/deleteDetails.php?deleteDetails=true&id=11",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"department",
+								"deleteDetails.php"
+							],
+							"query": [
+								{
+									"key": "deleteDetails",
+									"value": "true"
+								},
+								{
+									"key": "id",
+									"value": "11"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/department/updateDetails.php?updateDetails=true&id=9&name=aaa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"department",
+								"updateDetails.php"
+							],
+							"query": [
+								{
+									"key": "updateDetails",
+									"value": "true"
+								},
+								{
+									"key": "id",
+									"value": "9"
+								},
+								{
+									"key": "name",
+									"value": "aaa"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "employee",
+			"item": [
+				{
+					"name": "addDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/employee/addDetails.php?addDetails=true&name=new&emp_no=111&dept_id=1&join_date=2021-02-21&end_date=2022-02-21",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"employee",
+								"addDetails.php"
+							],
+							"query": [
+								{
+									"key": "addDetails",
+									"value": "true"
+								},
+								{
+									"key": "name",
+									"value": "new"
+								},
+								{
+									"key": "emp_no",
+									"value": "111"
+								},
+								{
+									"key": "dept_id",
+									"value": "1"
+								},
+								{
+									"key": "join_date",
+									"value": "2021-02-21"
+								},
+								{
+									"key": "end_date",
+									"value": "2022-02-21"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/employee/deleteDetails.php?deleteDetails=true&id=6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"employee",
+								"deleteDetails.php"
+							],
+							"query": [
+								{
+									"key": "deleteDetails",
+									"value": "true"
+								},
+								{
+									"key": "id",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/employee/updateDetails.php?updateDetails=true&id=6&name=new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"employee",
+								"updateDetails.php"
+							],
+							"query": [
+								{
+									"key": "updateDetails",
+									"value": "true"
+								},
+								{
+									"key": "id",
+									"value": "6"
+								},
+								{
+									"key": "name",
+									"value": "new"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "salary",
+			"item": [
+				{
+					"name": "addDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/salary/addDetails.php?addDetails=true&emp_id=1&month=march&year=2021&amount=20000&generated_date=2021-12-31",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"salary",
+								"addDetails.php"
+							],
+							"query": [
+								{
+									"key": "addDetails",
+									"value": "true"
+								},
+								{
+									"key": "emp_id",
+									"value": "1"
+								},
+								{
+									"key": "month",
+									"value": "march"
+								},
+								{
+									"key": "year",
+									"value": "2021"
+								},
+								{
+									"key": "amount",
+									"value": "20000"
+								},
+								{
+									"key": "generated_date",
+									"value": "2021-12-31"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/salary/deleteDetails.php?deleteDetails=true&id=9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"salary",
+								"deleteDetails.php"
+							],
+							"query": [
+								{
+									"key": "deleteDetails",
+									"value": "true"
+								},
+								{
+									"key": "id",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/database_exercise_session_3.1_Mysql/salary/updateDetails.php?updateDetails=true&id=7&month=january",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"database_exercise_session_3.1_Mysql",
+								"salary",
+								"updateDetails.php"
+							],
+							"query": [
+								{
+									"key": "updateDetails",
+									"value": "true"
+								},
+								{
+									"key": "id",
+									"value": "7"
+								},
+								{
+									"key": "month",
+									"value": "january"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
